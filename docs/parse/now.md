@@ -14,5 +14,10 @@ This is essentially the same as calling `dayjs(new Date())`.
 Day.js treats `dayjs(undefined)` as `dayjs()` due to that function parameters default to undefined when not passed in. 
 
 Day.js treats `dayjs(null)` as an invalid input.
+```js
+day()=day(new Date())=dayjs(undefined)
+day(null) -> Invalid Date
+```
+
 
 
